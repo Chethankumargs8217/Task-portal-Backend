@@ -17,15 +17,12 @@ public class CorsConfig {
         configuration.setAllowedOrigins(List.of(
                 "http://localhost:5173",
                 "http://localhost:5174",
-                "https://task-portal-frontend.onrender.com"
+                "https://taskportal-frontend.vercel.app",
+                "https://taskportal-frontend-lxzsoekmc-chethan-kumar-gs-projects.vercel.app"
         ));
 
         configuration.setAllowedMethods(List.of(
-                "GET",
-                "POST",
-                "PUT",
-                "DELETE",
-                "OPTIONS"
+                "GET", "POST", "PUT", "DELETE", "OPTIONS"
         ));
 
         configuration.setAllowedHeaders(List.of("*"));
